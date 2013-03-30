@@ -1,0 +1,32 @@
+{
+  "author": {
+    "name": "Soares Chen",
+    "email": "soares.chen@gmail.com",
+    "url": "http://soareschen.com"
+  },
+  "name": "quiver-split-stream",
+  "desription": "Split a Quiver read stream to be read by multiple readers",
+  "version": "0.0.1",
+  "homepage": "https://github.com/quiverjs/split-stream",
+  "repository": {
+    "url": "git@github.com:quiverjs/split-stream.git"
+  },
+  "dependencies": {
+    "quiver-stream-channel": ">=0.0.3",
+    "quiver-param": ">=0.0.1",
+    "async": ">=0.2.6"
+  },
+  "devDependencies": {
+    "mocha": ">=1.8.1",
+    "should": ">=1.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/quiverjs/split-stream/issues",
+    "email": "quiverjs@soareschen.com"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/quiverjs/license/master/LICENSE"
+  },
+  "main": "./lib/split-stream"
+}
