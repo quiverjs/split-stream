@@ -6,14 +6,13 @@
   },
   "name": "quiver-split-stream",
   "desription": "Split a Quiver read stream to be read by multiple readers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/quiverjs/split-stream",
   "repository": {
     "url": "git@github.com:quiverjs/split-stream.git"
   },
   "dependencies": {
     "quiver-stream-channel": ">=0.0.3",
-    "quiver-param": ">=0.0.1",
     "async": ">=0.2.6"
   },
   "devDependencies": {
